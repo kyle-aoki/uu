@@ -2,7 +2,7 @@ package uu
 
 import "fmt"
 
-func MainRecover() {
+func Recover() {
 	if r := recover(); r != nil {
 		fmt.Println(r)
 	}
